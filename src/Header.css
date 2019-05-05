@@ -1,0 +1,45 @@
+.header {
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(27, 27, 43);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-container {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+    margin-left: 60px;
+}
+
+.header-title {
+    font-size: 1.5em;
+}
+
+.header-subtitle{
+    font-weight: lighter;
+}
+
+.header-btn {
+    background-color: white;
+    border: 1px solid white;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.header-btn a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
